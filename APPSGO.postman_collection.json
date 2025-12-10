@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "16d623b4-4d41-4278-8d15-27a97e386109",
+		"name": "APPSGO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TestingGO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Nama\": \"Irshandy Juni\",\r\n  \"TanggalLahir\": \"2000-05-15\",\r\n  \"Gender\": 0,\r\n  \"IDHobi\": 2,\r\n  \"IDJurusan\": 3\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/mahasiswa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mahasiswa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/mahasiswa/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/mahasiswa/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mahasiswa",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/mahasiswa/18",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/mahasiswa/18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mahasiswa",
+						"18"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL MHS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/mahasiswa/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mahasiswa",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DETAIL MHS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/mahasiswa/18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mahasiswa",
+						"18"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TAMBAH MAHASISWA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Nama\": \"KAKA\",\r\n  \"TanggalLahir\": \"2000-05-15\",\r\n  \"Gender\": 0,\r\n  \"IDHobi\": 3,\r\n  \"IDJurusan\": 3\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/mahasiswa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mahasiswa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TAMBAH JURUSAN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Nama\": \"Informatika\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/jurusan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jurusan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TAMBAH HOBI",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Nama\": \"Badminton\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/hobi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hobi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL JURUSAN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/jurusan/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jurusan",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL HOBI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/hobi/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hobi",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
